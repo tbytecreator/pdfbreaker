@@ -1,0 +1,15 @@
+[tool]
+name = "pdf-struct-extractor"
+version = "0.1.0"
+description = "A project to read PDF files and transform their content into structured data."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyPDF2 = "^1.26.0"
+pydantic = "^1.9.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
